@@ -19,13 +19,13 @@ public class Principal {
 
         
         if (vida==1) {
-            System.out.println(Regalo.elegir(vida));
+            System.out.println("Su premio ganado es: "+Regalo.elegir(vida));
             
         } else {
             if (vida==2) {
-                System.out.println(Regalo.elegir(vida));
+                System.out.println("Su premio ganado es: "+Regalo.elegir(vida));
             } else {
-                System.out.println(Regalo.elegir(vida));
+                System.out.println("Su premio ganado es: "+Regalo.elegir(vida));
             }
         }
         sc.close();
