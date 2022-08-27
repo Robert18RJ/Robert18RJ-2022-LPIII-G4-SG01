@@ -1,4 +1,4 @@
-package Java.src.Lab02;
+package Lab02;
 
 public class Perro {
     public static final char[] toString = null;
