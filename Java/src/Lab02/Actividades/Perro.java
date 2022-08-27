@@ -1,7 +1,6 @@
-package Lab02;
+package Lab02.Actividades;
 
-public class Perro {
-    public static final char[] toString = null;
+public class Perro {    
     private String raza;
     private String color;
     private double temp;
@@ -81,6 +80,12 @@ public class Perro {
 
     private void cambiarPeso(int anios){         
         this.peso = this.peso + (anios * 1.5);     
+    }
+
+    public void SetTemp(Double temperatura) {
+    }
+
+    public void SetEdad(int edad2) {
     }
 }
 

@@ -1,3 +1,4 @@
+package Lab01.Ejercicios;
 
 public class Regalo {
     public static String elegir(int vida) {
