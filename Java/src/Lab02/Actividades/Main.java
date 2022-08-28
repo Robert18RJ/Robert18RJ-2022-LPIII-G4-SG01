@@ -1,6 +1,6 @@
 package Lab02.Actividades;
 import java.util.Scanner;
-public class Principal {
+public class Main {
     public static void main(String[] args) {    
         Scanner entrada =new Scanner(System.in);
         Perro Fido = new Perro("chihuahua", "marron");

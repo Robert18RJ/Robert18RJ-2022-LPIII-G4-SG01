@@ -33,21 +33,21 @@ public class CuentaBanco {
     //toString convierto a los objetos en cadena
     @Override
     public String toString() {
-        return "CuentaBanco: " + "Titular=" + titular + ", Cantidad=" + cantidad;
+        return ">>>Datos: " + "Titular=" + titular + ", Cantidad=" + cantidad;
     }
     //Función
-    public void ingresar(double cantidad) {
-        if (cantidad > 0)
+    public void Ingresar(Double cantidad) {
+        if (cantidad > 0) {
             this.cantidad = this.cantidad + cantidad;
-        else
-            this.cantidad = 0;      
+        }
     }
 
-    public void retirar(double cantidad) {
+    public void Retirar(Double cantidad) {
         double fondo;
         fondo = this.cantidad - cantidad;
-        if (fondo < 0)
-            this.cantidad = 0;
+        if (fondo < 0){
+            System.out.println("Saldo insuficiente");            
+        }
         else
             this.cantidad = fondo;
     }
