@@ -1,4 +1,4 @@
-package Lab02.Actividades;
+package Java.src.Lab02.Actividades;
 
 public class Perro {    
     private String raza;
@@ -80,12 +80,6 @@ public class Perro {
 
     private void cambiarPeso(int anios){         
         this.peso = this.peso + (anios * 1.5);     
-    }
-
-    public void SetTemp(Double temperatura) {
-    }
-
-    public void SetEdad(int edad2) {
     }
 }
 

@@ -1,4 +1,4 @@
-package Lab02.Ejercicios;
+package Java.src.Lab02.Ejercicios;
 
 import java.util.Scanner;
 
