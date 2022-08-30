@@ -1,4 +1,5 @@
-package Java.src.Lab02.Actividades;
+package Lab02.Actividades;
+
 public class Diagnostico {
 
     public static String aptoVacunaA(Perro mascota) {

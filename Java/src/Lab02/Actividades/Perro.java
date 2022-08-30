@@ -1,4 +1,4 @@
-package Java.src.Lab02.Actividades;
+package Lab02.Actividades;
 
 public class Perro {    
     private String raza;

@@ -1,5 +1,4 @@
-package Java.src.Lab02.Actividades;
-
+package Lab02.Actividades;
 import java.util.Scanner;
 
 public class Main {
@@ -19,6 +18,6 @@ public class Main {
         Fido.setTemp(temperatura);
         System.out.println("DIAGNÓSTICO: " + Diagnostico.aptoVacunaA(Fido));
         System.out.println(Fido.toString());
-        entrada.close(); 
+        entrada.close();
     }
 }

@@ -1,4 +1,4 @@
-package Java.src.Lab02.Ejercicios;
+package Lab02.Ejercicios;
 
 public class CuentaBanco {
     private String titular;
