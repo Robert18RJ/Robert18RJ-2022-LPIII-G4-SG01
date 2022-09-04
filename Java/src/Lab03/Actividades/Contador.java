@@ -1,4 +1,4 @@
-package Lab3.Actividades;
+package Lab03.Actividades;
 
 public class Contador {
     static int acumulador = 0;
