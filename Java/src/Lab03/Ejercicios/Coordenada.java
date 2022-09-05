@@ -44,7 +44,7 @@ public class Coordenada {
         resultado = Math.sqrt(resultado);
         return resultado;
     }
-    
+
     public static double distancia(Coordenada C1, Coordenada C2) {
         double resultado;
         resultado = Math.pow(C2.x - C1.x, 2) + Math.pow(C2.y - C1.y, 2);
@@ -54,7 +54,6 @@ public class Coordenada {
 
     public String toString() {
         return ">>>Coordenadas, X:" + x + ", Y: " + y;
-
     }
 
 }
