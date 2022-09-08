@@ -1,16 +1,17 @@
-package Lab04;
+package Lab04.Actividades;
 
 import java.util.Scanner;
 
 public class Matriz {
 
     public static void main(String[] args) {
-        Scanner sn = new Scanner(System.in); // TODO code application logic here
+        Scanner sn = new Scanner(System.in);
 
         // Matriz cuadrada de 4x4
         int matriz[][] = new int[4][4];
 
-        // Variables utilizadas
+        // Variables utilizadas1
+        
         boolean salir = false;
         int opcion, fila, columna;
 
@@ -28,8 +29,9 @@ public class Matriz {
             System.out.println("4. Suma de diagonal");
             System.out.println("5. Suma de diagonal inversa");
             System.out.println("6. Calcular media");
-            System.out.println("7. Salir");
-            System.out.println("Elije una opcion");
+            System.out.println("7. Imprimir Matrix");
+            System.out.println("8. Salir");
+            System.out.println("\nElije una opcion:");
             opcion = sn.nextInt();
 
             switch (opcion) {
@@ -60,23 +62,35 @@ public class Matriz {
                         } while (!(columna >= 0 && columna < matriz.length));
                         System.out.println(
                                 "La suma de los valores de la columna " + columna + " es: "
-                                        + sumaFila(matriz, columna));
+                                        + sumaColumna(matriz, columna));
                     } else {
                         System.out.println("Debes rellenar la matriz primero");
                     }
+                    break;
                 case 4:
                     System.out.println(" Suma de la diagonal: " + sumaDiagonal(matriz));
 
                     break;
 
                 case 5:
-                    System.out.println(" Suma de la diagonal inversa: " +sumaDiagonalver(matriz));
+                    System.out.println(" Suma de la diagonal inversa: " + sumaDiagonalver(matriz));
 
                     break;
                 case 6:
                     System.out.println(" Media de la matriz: " + media(matriz));
                     break;
                 case 7:
+                    for (int x = 0; x < matriz.length; x++) {
+                        System.out.print("|");
+                        for (int y = 0; y < matriz[x].length; y++) {
+                            System.out.print(matriz[x][y]);
+                            if (y != matriz[x].length - 1)
+                                System.out.print("\t");
+                        }
+                        System.out.println("|");
+                    }
+                    break;
+                case 8:
                     salir = true;
                     break;
                 default:
@@ -151,5 +165,18 @@ public class Matriz {
         }
         System.out.print(suma);
         return suma / cantidadDeElementos;
+
+    }
+
+    // Rellena la matriz con valores insertados por el usuario
+    public static void ImprimirMatrix(int[][] matriz) {
+        System.out.println("");
+        System.out.println("           Matriz                           ");
+        for (int i = 0; i < matriz.length; i++) {
+            for (int j = 0; j < matriz[0].length; j++) {
+                System.out.printf("%5d ", matriz[i][j]);
+            }
+        }
+        System.out.println("");
     }
 }

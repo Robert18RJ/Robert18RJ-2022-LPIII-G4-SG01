@@ -1,4 +1,4 @@
-package Lab04;
+package Lab04.Actividades;
 
 public class Prueba {
 
