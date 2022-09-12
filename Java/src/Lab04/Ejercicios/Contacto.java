@@ -1,48 +1,58 @@
 package Lab04.Ejercicios;
 
 public class Contacto {
+    
+    // Creamos los atributos del contacto
     private String nombre;
-    private String telefono;
+    private int telefono;
     private String direccion;
 
-    public Contacto(String nombre, String telefono, String direccion) {
+    public Contacto(String nombre, int telefono, String dirrecion) {
         this.nombre = nombre;
         this.telefono = telefono;
-        this.direccion = direccion;
+        this.direccion = dirrecion;
     }
+
+    public Contacto(String nombre) {
+        this.nombre = nombre;
+        this.telefono = 0;
+        this.direccion = "";
+    }
+
     public String getNombre() {
-        return this.nombre;
-
+        return nombre;
     }
-    public String getTelefono() {
-        return this.telefono;
 
-    }
-    public String getDirecion() {
-        return this.direccion;
-
-    }
     public void setNombre(String nombre) {
         this.nombre = nombre;
-
     }
-    public void setTelefono(String telefono) {
+
+    public int getTelefono() {
+        return telefono;
+    }
+
+    public void setTelefono(int telefono) {
         this.telefono = telefono;
-
     }
-    public void setDirecion(String direccion) {
+
+    public String getDireccion() {
+        return direccion;
+    }
+
+    public void setDireccion(String direccion) {
         this.direccion = direccion;
     }
 
-    public boolean equals(Contacto contacto){
-        if (this.nombre.trim().equalsIgnoreCase(contacto.getNombre().trim())){
+    public boolean equals(Contacto contacto) {
+        if (nombre.trim().equalsIgnoreCase(contacto.getNombre().trim())) {
             return true;
         }
         return false;
     }
-    
+
     @Override
-    public String toString(){
-        return "\nNombre: "+nombre+ "\nTelefono: " + telefono+ "\n";
-    }
+    public String toString() {
+        return "\nNombre : " + nombre + "\nTelefono : " + telefono + "\nDireccion : " + direccion + "\n";
+    }    
 }
+
