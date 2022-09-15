@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TestComposicion",
+            "request": "launch",
+            "mainClass": "Lab05.Acividades.TestComposicion",
+            "projectName": "2022-LPIII-G4-SG01_3032b461"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"

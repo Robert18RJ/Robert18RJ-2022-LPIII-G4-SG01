@@ -1,4 +1,4 @@
-package Lab05.Acividades;
+package Lab05.Actividades;
 
 public class Persona {
     private int id;
@@ -6,15 +6,18 @@ public class Persona {
     private String apellido;
     private Cuenta cuenta;
 
-    public Persona(int id, String nombre, String apellido,int numero){
-        this.id=id;
-        this.nombre=nombre;
-        this.apellido=apellido;
-        //Determine el numero de cuenta
+    public Persona(int id, String nombre, String apellido, int numero) {
+        this.id = id;
+        this.nombre = nombre;
+        this.apellido = apellido;
+        // Determine el numero de cuenta
         this.cuenta = new Cuenta(numero);
     }
 
-    //setter y getter
+    public Persona(int i, String string, String string2) {
+    }
+
+    // setter y getter
     public int getId() {
         return id;
     }
@@ -26,7 +29,7 @@ public class Persona {
     public String getNombre() {
         return nombre;
     }
-    
+
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
@@ -51,5 +54,6 @@ public class Persona {
     public String toString() {
         return "Persona{" + "id=" + id + ", nombre=" + nombre + ", apellido=" + apellido + ", cuenta=" + cuenta + '}';
     }
+    
 
 }
