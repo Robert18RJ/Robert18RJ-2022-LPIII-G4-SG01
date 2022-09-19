@@ -2,12 +2,9 @@ package Lab05.Actividades;
 
 public abstract class FiguraGeometrica {
     private String nombre;
-
-    public FiguraGeometrica(String string) {
-    }
-
+        
     abstract public double area();
-    public void figuraGeometrica (String nombreFigura) {
+    public FiguraGeometrica (String nombreFigura) {
         this.nombre = nombreFigura;
     }
 
@@ -16,6 +13,6 @@ public abstract class FiguraGeometrica {
     }
 
     final public String toString(){
-        return this.nombre + " con area " + this.area();
+        return this.nombre + " con área " + this.area();
     }
 }

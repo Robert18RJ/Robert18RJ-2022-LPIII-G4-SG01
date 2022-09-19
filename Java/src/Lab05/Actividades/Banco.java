@@ -69,24 +69,7 @@ public class Banco {
         } else {
             System.out.println("\nEl contacto no se ha eliminado");
         }
-    }
-
-    /*public boolean buscarCliente(Persona persona) {
-        boolean encontrado = false;
-
-        for (int i = 0; i < clientes.length; i++) {
-            if (nombre.equals(this.clientes[i].getNombre())) {
-                System.out.println(
-                        this.clientes[i].getNombre() + "-" + "Tf:" + this.clientes[i].getNombre());
-                encontrado = true;
-            }
-        }
-        if (!encontrado) {
-            System.out.println("cliente encontrado");
-        }
-        return encontrado;
-
-    }*/
+    }   
     
     public void buscarCliente(String nombre) {
         boolean encontrado = false;

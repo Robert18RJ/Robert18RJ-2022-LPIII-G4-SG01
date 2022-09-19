@@ -14,7 +14,6 @@ public class TestAsociacion {
 
         bcp.agregarCliente(new Persona(23, "Gabriela", "Diaz"));
         System.out.println(bcp);
-        System.out.println();
-
+        System.out.println();    
     }
 }

@@ -3,6 +3,7 @@ package Lab05.Actividades;
 public class Rectangulo extends FiguraGeometrica {
     private double base;
     private double altura;
+    
     public Rectangulo (double largo, double ancho) {
         super("Rectangulo");
         this.base = largo;
