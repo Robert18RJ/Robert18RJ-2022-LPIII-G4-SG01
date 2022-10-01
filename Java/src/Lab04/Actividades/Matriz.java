@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Matriz {
 
+    public static int length;
+
     public static void main(String[] args) {
         Scanner sn = new Scanner(System.in);
 
