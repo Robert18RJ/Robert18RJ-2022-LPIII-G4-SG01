@@ -9,12 +9,12 @@ public class PruebaInterfazImpactoE {
         int countEdificio = 0;
 
         ArrayList<ImpactoEcologico> objetoImpactoEcologico = new ArrayList<ImpactoEcologico>();
-        objetoImpactoEcologico.add(new Auto(10, 20, 30));
-        objetoImpactoEcologico.add(new Auto(100, 40, 75));
-        objetoImpactoEcologico.add(new Bicicleta(14, 15, 14));
-        objetoImpactoEcologico.add(new Bicicleta(1000, 10, 40));
-        objetoImpactoEcologico.add(new Edificio(2410, 70, 100));
-        objetoImpactoEcologico.add(new Edificio(10000, 20, 124));
+        objetoImpactoEcologico.add(new Edificio(280000, 10000, 20));
+        objetoImpactoEcologico.add(new Edificio(320000, 15000, 25));
+        objetoImpactoEcologico.add(new Auto(15, 14000, 5));
+        objetoImpactoEcologico.add(new Auto(30, 28000, 10));
+        objetoImpactoEcologico.add(new Bicicleta(10, 12, 5));
+        objetoImpactoEcologico.add(new Bicicleta(15, 15, 7));
 
         System.out.println("\nImpactoEcologico procesados en forma polimorfica:\n");
 

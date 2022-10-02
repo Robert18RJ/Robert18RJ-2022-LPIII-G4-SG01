@@ -51,7 +51,7 @@ public class Bicicleta implements ImpactoEcologico {
 
     @Override
     public String toString() {
-        return "Bicicleta \nfactor_de_Emision: " + factor_de_Emision + "\nImpactoSalud: " + ImpactoSalud
-                + "\nMejoraEconomia: " + MejoraEconomia + "\nTiempoVida: " + TiempoVida;
+        return "Bicicleta \nFactor de Emision: " + factor_de_Emision + "\nImpacto a la Salud: " + ImpactoSalud
+                + "\nMejora la Economia: " + MejoraEconomia + "\nTiempo de Vida: " + TiempoVida;
     }
 }

@@ -14,6 +14,4 @@ public abstract class FiguraTridimensional  extends Figura{
     public String toString() {
         return "FiguraTridimensional";
     }
-//Tipo de clase abstracta: FiguraTridimensional
-//Figura: Esfera
 }

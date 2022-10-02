@@ -39,20 +39,20 @@ public class Edificio implements ImpactoEcologico {
     public double getFactor_de_Emision() {
         return factor_de_Emision;
     }
-    
+
     public double dato_Actividad() {
-        return (CostoMantenimiento+UsoMateriales)*VidaUtil;
+        return (CostoMantenimiento + UsoMateriales) * VidaUtil;
     }
-    public double obtenerlmpactoEcologico(){
-        return getFactor_de_Emision()*dato_Actividad();
+
+    public double obtenerlmpactoEcologico() {
+        return getFactor_de_Emision() * dato_Actividad();
 
     }
 
     @Override
     public String toString() {
-        return "Edificio \ncosto contruccion: " + UsoMateriales + "\ncosto Matenimiento: " + CostoMantenimiento
-                + "\nVidaUtil: " + VidaUtil + "\nfactor_de_Emision: " + factor_de_Emision ;
+        return "Edificio \nCosto de contruccion: " + UsoMateriales + "\nCosto de matenimiento: " + CostoMantenimiento
+                + "\nVida Util: " + VidaUtil + "\nFactor de Emision: " + factor_de_Emision;
     }
-    
 
 }

@@ -51,7 +51,7 @@ public class Auto implements ImpactoEcologico {
 
     @Override
     public String toString() {
-        return "Auto :  \nfactor_de_Emision: " + factor_de_Emision + "\nUsoCombustible: " + UsoCombustible
-                + "\nEmisionCarbono: " + EmisionCarbono + "\nUsoTiempo: " + UsoTiempo;
+        return "Auto :  \nFactor_de_Emision: " + factor_de_Emision + "\nUso de Combustible: " + UsoCombustible
+                + "\nEmision de Carbono: " + EmisionCarbono + "\nTiempo de uso: " + UsoTiempo;
     }
 }
