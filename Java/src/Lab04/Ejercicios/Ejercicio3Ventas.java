@@ -54,6 +54,11 @@ public class Ejercicio3Ventas {
             contador++;
         }
         System.out.printf("%,13d ", totalTotal);
+
+        System.out.println(totalV1);
+        System.out.println(totalV2);
+        System.out.println(totalV3);
+        System.out.println(totalV4);
     }
 
     public static int obtTotal(int[] matriz) {
