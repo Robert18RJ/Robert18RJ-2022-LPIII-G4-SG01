@@ -6,15 +6,10 @@ public class Triangulo extends FiguraBidimensional {
     private double altura;
 
     // Constructor
-    public Triangulo(String nombre, double base, double altura) {
-        super(nombre = "Triangulo");
+    public Triangulo(double base, double altura) {
+        super("Triangulo");
         this.base = base;
         this.altura = altura;
-    }
-
-    // Metodo abstracto de la clase abstracta Figura
-    @Override
-    public void ingresar() {
     }
 
     // Metodo de la clase FiguraBidimensional
@@ -27,6 +22,11 @@ public class Triangulo extends FiguraBidimensional {
     @Override
     public String toString() {
         return super.toString() + "\nArea: " + calcularArea();
+    }
+
+    @Override
+    public void ingresar() {
+                
     }
 
 }

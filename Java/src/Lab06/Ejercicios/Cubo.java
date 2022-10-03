@@ -5,14 +5,9 @@ public class Cubo extends FiguraTridimensional {
     public double arista;
 
     // Constructor
-    public Cubo(String nombre, double arista) {
-        super(nombre = "Cubo");
+    public Cubo( double arista) {
+        super("Cubo");
         this.arista = arista;
-    }
-
-    // Metodo abstracto de la clase abstracta Figura
-    @Override
-    public void ingresar() {
     }
 
     // Método de la clase FiguraTridimensional

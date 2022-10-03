@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MainAscensor",
+            "request": "launch",
+            "mainClass": "Lab06.EjercicioRefuerzo.MainAscensor",
+            "projectName": "2022-LPIII-G4-SG01_ece398f3"
+        },
+        {
+            "type": "java",
             "name": "Launch PruebaInterfazImpactoE",
             "request": "launch",
             "mainClass": "Lab06.Ejercicios.PruebaInterfazImpactoE",

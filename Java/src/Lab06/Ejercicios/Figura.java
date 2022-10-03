@@ -3,10 +3,9 @@ package Lab06.Ejercicios;
 public abstract class Figura {
     private String nombre;
 
-    public abstract void ingresar(); // método abstracto
+    public abstract double calcularArea(); // método abstracto
 
-    // Este constructor no puede ser invocado directamente
-    // solo lo usan las clases derivadas
+    // Constructor    
     public Figura(String nombre) {
         this.nombre = nombre;
     }

@@ -2,7 +2,7 @@ package Lab06.Ejercicios;
 
 public abstract class FiguraBidimensional extends Figura {
     
-    public abstract double calcularArea();//método abstracto
+    public abstract void ingresar();//método abstracto
 
     // Constructor implicito super
     public FiguraBidimensional(String nombre) {

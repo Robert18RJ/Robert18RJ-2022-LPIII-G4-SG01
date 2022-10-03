@@ -13,15 +13,10 @@ public class Esfera extends FiguraTridimensional {
 	}
 
 	// Constructor
-    public Esfera(String nombre, double radio) {
-        super(nombre="Esfera");
+    public Esfera( double radio) {
+        super("Esfera");
         this.radio = radio;
-    }
-
-    //Metodo abstracto de la clase abstracta Figura
-    @Override
-    public void ingresar() {
-    }    
+    } 
 
     public double calcularArea() {
         return (4.0 * Math.PI * (radio*radio));

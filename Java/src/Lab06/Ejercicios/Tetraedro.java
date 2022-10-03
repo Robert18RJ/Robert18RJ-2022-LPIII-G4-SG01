@@ -5,15 +5,11 @@ public class Tetraedro extends FiguraTridimensional {
     public double arista;
 
     // Constructor
-    public Tetraedro(String nombre, double arista) {
-        super(nombre = "Tetraedro");
+    public Tetraedro( double arista) {
+        super("Tetraedro");
         this.arista = arista;
     }
 
-    // Metodo abstracto de la clase abstracta Figura
-    @Override
-    public void ingresar() {
-    }
 
     // Método de la clase FiguraTridimensional
     @Override
