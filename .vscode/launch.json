@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Ejercicio1",
+            "request": "launch",
+            "mainClass": "Lab07.Ejercicio1",
+            "projectName": "2022-LPIII-G4-SG01_ece398f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Excepciones",
+            "request": "launch",
+            "mainClass": "Lab07.Excepciones",
+            "projectName": "2022-LPIII-G4-SG01_ece398f3"
+        },
+        {
+            "type": "java",
             "name": "Launch MainAscensor",
             "request": "launch",
             "mainClass": "Lab06.EjercicioRefuerzo.MainAscensor",

@@ -51,7 +51,8 @@ public class MainAscensor {
 
 	}
 
-	// Pide el número de personas que suben al ascensor y el piso destino para ordenar al ascensor que se desplace.
+	// Pide el número de personas que suben al ascensor y el piso destino para
+	// ordenar al ascensor que se desplace.
 	static void desplazar() {
 		try {
 			System.out.print("\n¿Cuántas personas suben al ascensor?: ");
