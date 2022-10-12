@@ -1,3 +1,5 @@
+package Lab07.Actividades;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 

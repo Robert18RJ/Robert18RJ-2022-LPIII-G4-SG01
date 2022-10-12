@@ -1,3 +1,5 @@
+package Lab07.Actividades;
+
 public class AppStack {
     public static void main(String[] args) {
         try {

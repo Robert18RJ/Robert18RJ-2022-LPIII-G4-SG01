@@ -1,3 +1,5 @@
+package Lab07.Actividades;
+
 public class AppExcepcion {
     public static void main(String[] args) {
 
@@ -12,15 +14,13 @@ public class AppExcepcion {
     }
 
     public static void metodol() throws Exception {
-        try{
+        try {
             System.out.println("Metodol");
             throw new Exception();
-        }
-        catch(Exception excepcion){
-            System.out.println("La excepcion se manejo en el metodo1"); 
+        } catch (Exception excepcion) {
+            System.out.println("La excepcion se manejo en el metodo1");
             throw excepcion;
-        }
-        finally{
+        } finally {
             System.out.println("Se ejecuto finally en metodol");
         }
     }
@@ -28,11 +28,9 @@ public class AppExcepcion {
     public static void metodo2() {
         try {
             System.out.println("Metodo metodo2");
-        } 
-        catch (Exception excepcion) {
+        } catch (Exception excepcion) {
             System.out.println(excepcion);
-        }
-        finally {
+        } finally {
             System.out.println("Se ejecuto finally en metodo2");
         }
         System.out.println("Fin del metodo2");
