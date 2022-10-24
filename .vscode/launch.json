@@ -6,6 +6,104 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MarcoRastreadorRatonEjecucion",
+            "request": "launch",
+            "mainClass": "Lab08.GUI.MarcoRastreadorRatonEjecucion",
+            "projectName": "2022-LPIII-G4-SG01_73a4a5c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch CampoTextoMarcoEjecucion",
+            "request": "launch",
+            "mainClass": "Lab08.GUI.CampoTextoMarcoEjecucion",
+            "projectName": "2022-LPIII-G4-SG01_73a4a5c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch CampoTextoMarcoEjecucion",
+            "request": "launch",
+            "mainClass": "Lab08.CampoTextoMarcoEjecucion",
+            "projectName": "2022-LPIII-G4-SG01_73a4a5c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MarcoDetallesRatonEjecucion",
+            "request": "launch",
+            "mainClass": "Lab08.MarcoDetallesRatonEjecucion",
+            "projectName": "2022-LPIII-G4-SG01_73a4a5c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch App_MarcoRastreadorRaton",
+            "request": "launch",
+            "mainClass": "App_MarcoRastreadorRaton",
+            "projectName": "2022-LPIII-G4-SG01_ece398f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch RJ",
+            "request": "launch",
+            "mainClass": "Lab08.RJ",
+            "projectName": "2022-LPIII-G4-SG01_73a4a5c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Principal",
+            "request": "launch",
+            "mainClass": "Lab01.Ejercicios.Principal",
+            "projectName": "2022-LPIII-G4-SG01_73a4a5c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch App4",
+            "request": "launch",
+            "mainClass": "Lab08.App4",
+            "projectName": "2022-LPIII-G4-SG01_73a4a5c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch App3",
+            "request": "launch",
+            "mainClass": "Lab08.App3",
+            "projectName": "2022-LPIII-G4-SG01_73a4a5c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch App1",
+            "request": "launch",
+            "mainClass": "Lab08.App1",
+            "projectName": "2022-LPIII-G4-SG01_73a4a5c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "Lab08.App",
+            "projectName": "2022-LPIII-G4-SG01_73a4a5c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch App4",
+            "request": "launch",
+            "mainClass": "Lab08.App4",
+            "projectName": "2022-LPIII-G4-SG01_ece398f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch App3",
+            "request": "launch",
+            "mainClass": "Lab08.App3",
+            "projectName": "2022-LPIII-G4-SG01_ece398f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch App1",
+            "request": "launch",
+            "mainClass": "Lab08.App1",
+            "projectName": "2022-LPIII-G4-SG01_ece398f3"
+        },
+        {
+            "type": "java",
             "name": "Launch prin",
             "request": "launch",
             "mainClass": "Lab07.Ejercicios.prin",

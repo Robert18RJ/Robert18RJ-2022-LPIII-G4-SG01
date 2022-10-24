@@ -4,7 +4,7 @@ public class Ejercicio1 {
     public static void main(String[] args) {
         double[] v = new double[15];
         // aqui
-        acceso(v, 16);
+        //acceso(v, 16);
     }
 
     public static double acceso(double[] v, int j) throws Exception {
