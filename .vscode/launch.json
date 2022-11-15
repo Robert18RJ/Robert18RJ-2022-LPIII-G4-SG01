@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PruebaJFileChooser",
+            "request": "launch",
+            "mainClass": "Lab09.DemoJFileChooser.PruebaJFileChooser",
+            "projectName": "2022-LPIII-G4-SG01_73a4a5c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch FrmEmpleado",
+            "request": "launch",
+            "mainClass": "FrmEmpleado",
+            "projectName": "2022-LPIII-G4-SG01_73a4a5c0"
+        },
+        {
+            "type": "java",
             "name": "Launch MarcoRastreadorRatonEjecucion",
             "request": "launch",
             "mainClass": "Lab08.GUI.MarcoRastreadorRatonEjecucion",
