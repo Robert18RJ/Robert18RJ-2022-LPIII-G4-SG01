@@ -58,7 +58,7 @@ public class App {
 
 }
 
-// Excpeción propia
+// Excepción propia
 class LimiteInvalidoException extends IndexOutOfBoundsException {
     public LimiteInvalidoException() {
 

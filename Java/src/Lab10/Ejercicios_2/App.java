@@ -13,7 +13,7 @@ public class App {
         System.out.printf("%nArray charArray contiene:%n");
         imprimirArray(charArray);
 
-        System.out.printf("\n-----INTERCAMBIANDO LAS PISICIONES------\n");
+        System.out.printf("\n-----INTERCAMBIANDO LAS POSICIONES------\n");
 
         System.out.printf("\nArray integerArray  \nintercambiando el indice ");
         intercabiaPosiciones(intArray, 0, 4);

@@ -3,38 +3,35 @@ package Ejercicios_3;
 public class App {
     public static void main(String[] args) throws Exception {
 
-        String stringA = "Robert";
-        String stringB = "Robert";
-        Integer integerA = 1;
-        Integer integerB = 1;
-        Double doubleA = 1.1;
-        Character charA = 'H';
+        String cadena1 = "Robert";
+        String cadena2 = "Robert";
+        //String cadena2 = "Joel";
+        Integer entero1 = 5;
+        Integer entero2 = 5;
+        //Integer entero2 = 7;
+        Double doble = 7.7;
+        Character char1 = 'R';       
 
-        // para la comparacion de dos objetos propios
         Persona persona1 = new Persona("77180710", "Robert", "Dueñas");
         Persona persona2 = new Persona("77180710", "Robert", "Dueñas");
-        Persona persona3 = new Persona("78908070", "Jaely", "Morales");
 
-        System.out.println("stringA con stringB iguales?");
-        System.out.println(isEqualTo(stringA, stringB));
+        System.out.println("cadena1 con cadena2 iguales?");
+        System.out.println(isEqualTo(cadena1, cadena2));
 
-        System.out.println("integerA con integerB iguales?");
-        System.out.println(isEqualTo(integerA, integerB));
+        System.out.println("entero1 con entero2 iguales?");
+        System.out.println(isEqualTo(entero1, entero2));
 
-        System.out.println("doubleA con charA iguales?");
-        System.out.println(isEqualTo(doubleA, charA));
-
+        System.out.println("DoubleA con CharA iguales?");
+        System.out.println(isEqualTo(doble, char1));
+        
         System.out.println("persona1 con persona2 iguales?");
         System.out.println(isEqualTo(persona1, persona2));
 
-        System.out.println("persona1 con persona3 iguales?");
-        System.out.println(isEqualTo(persona1, persona3));
-
     }
 
-    public static <T, E> boolean isEqualTo(T argumento1, E argumento2) {
+    public static <T, E> boolean isEqualTo(T arg1, E arg2) {
 
-        return argumento1.equals(argumento2);
+        return arg1.equals(arg2);
     }
 
 }

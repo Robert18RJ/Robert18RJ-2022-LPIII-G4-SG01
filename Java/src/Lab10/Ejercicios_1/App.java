@@ -6,7 +6,7 @@ public class App {
         Double[] doubleArray = { 1.1, 2.2, 3.3, 4.4, 5.5 };
         Character[] charArray = { 'H', 'O', 'L', 'A' };
 
-        String[] stringArray = { "Uno", "Dos", "Tres", "Cuatro", "Cinco", "seis", "Siete", "Ocho" };
+        String[] stringArray = { "Uno", "Dos", "Tres", "Cuatro", "Cinco", "Seis", "Siete", "Ocho", "Cuatro", "Cinco", "Seis", "Siete", "Ocho"};
 
         System.out.printf("Array integerArray contiene:%n");
         imprimirArray(intArray);
